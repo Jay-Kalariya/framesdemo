@@ -20,7 +20,7 @@ const AboutUs = () => {
   }
   return (
     <div>
-      <div ref={section1}>
+      {/* <div ref={section1}>
         <ProductHero goToSectionRef={section2} scrollTo={scrollTo} />
       </div>
       <div ref={section2}>
@@ -32,7 +32,7 @@ const AboutUs = () => {
       <div className="Form_Page">
         <SocialPage socialMediaImgSrc={SocialMediaImg} />
         <Form />
-      </div>
+      </div> */}
     </div>
   );
 };

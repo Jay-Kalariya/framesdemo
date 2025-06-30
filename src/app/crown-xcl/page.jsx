@@ -5,7 +5,7 @@ import SocialPage from "@/components/socialPage/socialpage";
 import Form from "@/components/forms/form1/Form";
 import SocialMediaImg from "@/images/socials-image.png";
 // import CategoryLeftRightCat from "@/components/categoryLeftRight/CategoryLeftRightOne";
-import AboutUsProductsCrownXcl from "@/components/aboutUs_productscrownXcl/page"
+// import AboutUsProductsCrownXcl from "@/components/aboutUs_productscrownXcl/page"
 import "./crownXclPage.scss"
 // import ProductsInner from "@/components/ProductsComponenetsInner/decorativeLaminatesInner/page";
 const XylemPage = () => {
@@ -14,7 +14,7 @@ const XylemPage = () => {
   });
   return (
     <>
-    <AboutUsProductsCrownXcl />
+    {/* <AboutUsProductsCrownXcl /> */}
     {/* <div className="Form_Page">
         <SocialPage socialMediaImgSrc={SocialMediaImg} />
         <Form />
