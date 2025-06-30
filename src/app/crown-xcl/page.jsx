@@ -1,9 +1,9 @@
 
 "use client"
 import { useEffect } from "react";
-import SocialPage from "@/components/socialPage/socialpage";
-import Form from "@/components/forms/form1/Form";
-import SocialMediaImg from "@/images/socials-image.png";
+// import SocialPage from "@/components/socialPage/socialpage";
+// import Form from "@/components/forms/form1/Form";
+// import SocialMediaImg from "@/images/socials-image.png";
 // import CategoryLeftRightCat from "@/components/categoryLeftRight/CategoryLeftRightOne";
 // import AboutUsProductsCrownXcl from "@/components/aboutUs_productscrownXcl/page"
 import "./crownXclPage.scss"
