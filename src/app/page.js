@@ -67,7 +67,7 @@ export default function Home() {
   return (
     <>
 
-      <AnimatePresence
+      {/* <AnimatePresence
        mode="wait"
        >
         {isLoading &&
@@ -75,7 +75,7 @@ export default function Home() {
             counter={isCounter}
           />
         }
-      </AnimatePresence>
+      </AnimatePresence> */}
       {width && (
         <>
           {width > 575 ? (
@@ -87,29 +87,18 @@ export default function Home() {
       )}
       {/* FRAMES ENDED */}
       <main className="main">
-        {/* <HeroBanner /> */}
-        {/* <Text /> */}
-        {/* <CenteredCard /> */}
-        {/* <HomeSlider /> */}
-        {/* <NewtText  /> */}
-        {/* <TextAnimOne /> */}
-        {/* <HeroBanner /> */}
-        
-        <HomeHeroSection />
-       
-        {/* <NewThreeDSlider /> */}
-        {/* <ThreeSlider /> */}
-        <NewRevealText paragraph={paragraph} />
-        <PlyMarquee />
-        <RoyalCrownSlider />
-        <CategoryLeftRightInsights />
+        {/* <HomeHeroSection /> */}
+        {/* <NewRevealText paragraph={paragraph} /> */}
+        {/* <PlyMarquee /> */}
+        {/* <RoyalCrownSlider /> */}
+        {/* <CategoryLeftRightInsights /> */}
         {/* <ServicesPageCard /> */}
-        <Certification />
-        <TimelineHome />
-        <div className="Form_Page">
+        {/* <Certification /> */}
+        {/* <TimelineHome /> */}
+        {/* <div className="Form_Page">
           <SocialPage socialMediaImgSrc={SocialMediaImg} />
           <Form />
-        </div>
+        </div> */}
       </main>
     </>
   );
