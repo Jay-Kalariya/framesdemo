@@ -26,7 +26,7 @@ import Preloader from "@/components/preloader";
 // import Text from "@/components/TextCircular/textcircular"
 // import CenteredCard from "@/components/centeredCards/page";
 const HomeBanner = dynamic(() => import("@/components/Home_page_Banner/page"));
-const HomeBanner1 = dynamic(() => import("@/components/Home_page_Banner/page2"));
+const HomeBanner1 = dynamic(() => import("@/components/Home_page_Banner/page"));
 
 export default function Home() {
   const [width, setWidth] = useState(null);
