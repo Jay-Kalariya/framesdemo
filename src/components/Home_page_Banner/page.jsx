@@ -75,7 +75,7 @@ const Animation = ({ loadImage, counter }) => {
     const frameCount = 216;
     const currentFrame = (index) =>
       // https://interiormaataassets.humbeestudio.xyz/mainsiteassets/newRcFrames/
-      `/newRcFrames/${(index + 1).toString().padStart(3, "0")}.jpg`;
+      `https://jay-kalariya.github.io/framesdemo/newRcFrames/${(index + 1).toString().padStart(3, "0")}.jpg`;
 
     let imgL = [];
     for (let i = 0; i < frameCount; i++) {
