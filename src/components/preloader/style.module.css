@@ -3,7 +3,7 @@
   width: 100vw;
   position: fixed;
   z-index: 99999;
-  background-color: #FFEEE2;
+  background-color: #b9d3f6;
 }
 
 .logoImageOuter{
@@ -33,6 +33,7 @@
   align-items: end;
   height: 75vh;
   font-size: 40px;
+  color: white; 
 }
 
 .circle {

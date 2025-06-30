@@ -64,7 +64,7 @@ const strokeDashoffset = circleStrokeLength * (1 - loadedFrames / 100);
         {/* <div className={styles.loadingCounter}>{loadedFrames}</div> */}
       </motion.div>
       <div className={styles.svgLogoCenter}>
-      <Image src={logo} alt="none" className={styles.svgLogoCenterInner}/>
+      {/* <Image src={logo} alt="none" className={styles.svgLogoCenterInner}/> */}
       
  
       <div className={styles.circleCenter}>
@@ -76,7 +76,7 @@ const strokeDashoffset = circleStrokeLength * (1 - loadedFrames / 100);
             cx="100"
             cy="100"
             r="95"
-            stroke="#5b3524"
+            stroke="#b9d3f6"
             strokeWidth="3"
             fillOpacity="0"
             strokeDasharray={circleStrokeLength}
