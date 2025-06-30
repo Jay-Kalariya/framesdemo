@@ -1,13 +1,13 @@
 "use client";
 import { useEffect } from "react";
-import ProductHero from "@/components/productHero/page";
+// import ProductHero from "@/components/productHero/page";
 import "./product.scss";
-import Products from "@/components/product/page";
-import AboutUs_products from "@/components/aboutUs_products/page";
-import AboutUs_productsOne from "@/components/aboutUs_productsOne/page"
-import Form from "@/components/forms/form1/Form";
-import SocialPage from "@/components/socialPage/socialpage";
-import SocialMediaImg from "@/images/socials-image.png";
+// import Products from "@/components/product/page";
+// import AboutUs_products from "@/components/aboutUs_products/page";
+// import AboutUs_productsOne from "@/components/aboutUs_productsOne/page"
+// import Form from "@/components/forms/form1/Form";
+// import SocialPage from "@/components/socialPage/socialpage";
+// import SocialMediaImg from "@/images/socials-image.png";
 import { useRef } from "react";
 const AboutUs = () => {
   useEffect(() => {
