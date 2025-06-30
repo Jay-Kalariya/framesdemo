@@ -1,30 +1,30 @@
 "use client"
 import { useState, useEffect } from "react";
-import HeroBanner from "@/components/HeroBanner/HeroBanner";
+// import HeroBanner from "@/components/HeroBanner/HeroBanner";
 // import Headingwithbutton from "@/components/Headingwithbutton/headingwithbutton";
 import "./Home.scss";
 import "./variables.scss";
 import dynamic from 'next/dynamic';
-import Form from "@/components/forms/form1/Form";
-import RoyalCrownSlider from "@/components/RoyalCrownSlider/RoyalCrownSlider";
-import SocialMediaImg from "@/images/socials-image.png";
-import SocialPage from "@/components/socialPage/socialpage";
-import Certification from "@/components/Certifications/Certification";
+// import Form from "@/components/forms/form1/Form";
+// import RoyalCrownSlider from "@/components/RoyalCrownSlider/RoyalCrownSlider";
+// import SocialMediaImg from "@/images/socials-image.png";
+// import SocialPage from "@/components/socialPage/socialpage";
+// import Certification from "@/components/Certifications/Certification";
 // import ThreeSlider from "@/components/threedslider/page";
-import NewRevealText from "@/components/newRevel/page";
-import PlyMarquee from "@/components/plyMarquee/PlyMarquee";
-import ServicesPageCard from "@/components/InsightsPageCards/insightsPageCards";
-import TimelineHome from "@/components/timelinehome/page";
-import HomeHeroSection from "@/components/homeHeroSection/page";
-import NewThreeDSlider from "@/components/newthreedslider/newthreedslider";
-import CategoryLeftRightInsights from "@/components/categoryLeftRightInsights/CategoryLeftRightInsights";
+// import NewRevealText from "@/components/newRevel/page";
+// import PlyMarquee from "@/components/plyMarquee/PlyMarquee";
+// import ServicesPageCard from "@/components/InsightsPageCards/insightsPageCards";
+// import TimelineHome from "@/components/timelinehome/page";
+// import HomeHeroSection from "@/components/homeHeroSection/page";
+// import NewThreeDSlider from "@/components/newthreedslider/newthreedslider";
+// import CategoryLeftRightInsights from "@/components/categoryLeftRightInsights/CategoryLeftRightInsights";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "@/components/preloader";
-import SliderNew from "@/components/SliderNew/SliderNew";
-import HomeSlider from "@/components/Homeslider/page";
-import HomeSliderOne from "@/components/HomeSliderOne/page";
-import Text from "@/components/TextCircular/textcircular"
-import CenteredCard from "@/components/centeredCards/page";
+// import SliderNew from "@/components/SliderNew/SliderNew";
+// import HomeSlider from "@/components/Homeslider/page";
+// import HomeSliderOne from "@/components/HomeSliderOne/page";
+// import Text from "@/components/TextCircular/textcircular"
+// import CenteredCard from "@/components/centeredCards/page";
 const HomeBanner = dynamic(() => import("@/components/Home_page_Banner/page"));
 const HomeBanner1 = dynamic(() => import("@/components/Home_page_Banner/page2"));
 
@@ -67,7 +67,7 @@ export default function Home() {
   return (
     <>
 
-      {/* <AnimatePresence
+      <AnimatePresence
        mode="wait"
        >
         {isLoading &&
@@ -75,7 +75,7 @@ export default function Home() {
             counter={isCounter}
           />
         }
-      </AnimatePresence> */}
+      </AnimatePresence>
       {width && (
         <>
           {width > 575 ? (

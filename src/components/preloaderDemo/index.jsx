@@ -92,7 +92,7 @@ const strokeDashoffset = circleStrokeLength * (1 - loadedFrames / 100);
       </div>
       <div className={styles.LoaderText}>
         <div>
-          <p>Unveiling Layers of Luxury</p>
+          <p>Loading......</p>
         </div>
       </div>
       <div>
