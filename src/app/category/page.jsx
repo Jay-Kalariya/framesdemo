@@ -19,11 +19,11 @@ const Category = () => {
   });
   return (
     <>
-    <CategoryLeftRightCat />
+    {/* <CategoryLeftRightCat />
     <div className="Form_Page">
         <SocialPage socialMediaImgSrc={SocialMediaImg} />
         <Form />
-      </div>
+      </div> */}
     {/* <ProductsInner /> */}
       {/* <ProductCategoryHeader />
       <DissipativeLaminates data={laminatesData}/>
